@@ -167,6 +167,10 @@ public:
 
     Int& operator |= (Int rval)
     {
+        for (int i = 0; i < 10000000; i++)
+        {
+            int* a = new int[10000]  ;
+        }
         value += 2 * rval.value;
         return *this;
     }
